@@ -1,0 +1,18 @@
+{
+  "name": "shaama",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "keywords": [
+    ""
+  ],
+  "license": "",
+  "author": "",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "watch:css": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}

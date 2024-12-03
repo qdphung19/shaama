@@ -1,0 +1,49 @@
+/* Container for the marquee to hide overflow */
+.marquee-container {
+    overflow: hidden; /* Hide content that goes beyond the container */
+    width: 100%;
+    /*background-color: #FFDAB9; !* Soft amber background *!*/
+    /*margin-bottom: 20px;*/
+}
+
+/* Base styles for the marquee */
+.marquee {
+    display: inline-block;
+    white-space: nowrap; /* Prevent text wrapping */
+    padding: 10px 0;
+}
+
+/* Styles for the content inside the marquee */
+.marquee span {
+    display: inline-block;
+    padding-left: 200%; /* Start the text outside the container */
+    animation: marquee linear infinite; /* Apply the marquee animation */
+}
+
+/* Pause the animation on hover */
+.marquee:hover span {
+    animation-play-state: paused;
+}
+
+/* Different speeds for the marquee */
+.marquee-slow span {
+    animation-duration: 60s;
+}
+
+.marquee-normal span {
+    animation-duration: 30s;
+}
+
+.marquee-fast span {
+    animation-duration: 15s;
+}
+
+/* Keyframes for the marquee animation */
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0); /* Start position */
+    }
+    100% {
+        transform: translate(-100%, 0); /* End position - move left by 100% */
+    }
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEEIN - Make Your Coffee</title>
+    <!-- css -->
+    <link href="css/output.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="bg-warm-ivory">
+<!-- Header -->
+<header class="fixed w-full bg-white z-50">
+    <div class="container mx-auto px-4 py-4">
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-bold">
+                SHAAMA
+            </a>
+
+            <!-- Navigation -->
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#" class="text-black hover:text-gray-600">ACCUEIL</a>
+                <a href="#product" class="text-black hover:text-gray-600">PRODUIT</a>
+                <a href="#contact" class="text-black hover:text-gray-600">CONTACT</a>
+                <!--                    <a href="/about" class="text-black hover:text-gray-600">À PROPOS DE NOUS</a>-->
+            </nav>
+
+            <!-- Right Menu -->
+            <div class="flex items-center space-x-6">
+                <!--                    <div class="relative">-->
+                <!--                        <select class="appearance-none bg-transparent pr-8 focus:outline-none">-->
+                <!--                            <option>FR</option>-->
+                <!--                            <option>EN</option>-->
+                <!--                        </select>-->
+                <!--                    </div>-->
+                <!--                    <button class="hover:text-gray-600">-->
+                <!--                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+                <!--                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />-->
+                <!--                        </svg>-->
+                <!--                    </button>-->
+                <!--                    <button class="hover:text-gray-600">-->
+                <!--                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+                <!--                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />-->
+                <!--                        </svg>-->
+                <!--                    </button>-->
+                <!--                    <button class="hover:text-gray-600">-->
+                <!--                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+                <!--                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />-->
+                <!--                        </svg>-->
+                <!--                    </button>-->
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<main class="pt-20">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center h-[92vh]">
+            <!-- Left Content -->
+            <div class="space-y-6">
+                <h1 class="text-muted-gold text-5xl font-bold leading-tight">
+                    La flamme
+                    <span class="text-deep-taupe block italic">qui évoque l'émotion.</span>
+                </h1>
+                <div class="flex space-x-4">
+                    <button class="bg-sage-green text-white font-bold px-6 py-3 rounded-full hover:bg-gray-800">
+                        EXPLORER LE PRODUIT
+                    </button>
+                    <!--                        <button class="border border-black px-6 py-3 rounded-full hover:bg-gray-100">-->
+                    <!--                            LEARN MORE-->
+                    <!--                        </button>-->
+                </div>
+            </div>
+
+            <!-- Right Content -->
+            <div class="relative">
+                <img src="assets/img/img_header.png" alt="Coffee Grinder"
+                     class="w-[70%]">
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <div class="marquee-container bg-charcoal">
+            <div class="marquee marquee-fast text-white">
+                <span>🕯 Bougie 100% naturelle, sans plastique ni verre pour un choix écologie 🕯 Bougie en bois écologique, fabriquée avec des matériaux de haute qualité 🕯 </span>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div id="product" class="flex flex-col md:flex-row gap-8 justify-center items-stretch mt-10">
+    <!-- Vanilla Dream Candle -->
+    <div class="max-w-sm rounded-3xl overflow-hidden shadow-lg bg-white flex-1">
+        <img class="w-50 h-64 object-cover" src="assets/img/img_product_1.png" alt="img_product_1">
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-deep-taupe">Socle en Bougie Bambou</div>
+            <p class="text-gray-700 text-base mb-4">
+                Ce modèle déposé français incarne l'innovation contemporaine, alliant design élégant et respect de
+                l'environnement pour une décoration raffinée et écologique. - Fabriquée à la main par des artisans
+                locaux avec des matériaux de haute qualité et respectueux de l'environnement, chaque pièce est unique et
+                exceptionnelle. - La bougie en cire de soja 100% végétale est 100% naturelle, sans plastique ni verre,
+                offrant un choix parfait. - Le socle en bambou durable apporte une touche élégante et naturelle. - La
+                mèche en bois de hêtre naturel crée une longue flamme dansante et un crépitement caractéristique,
+                évoquant l'expérience d'un mini feu de camp d'intérieur.
+            </p>
+            <div class="flex justify-between items-center mb-4">
+                <span class="text-xl font-bold text-deep-taupe">€24.99</span>
+            </div>
+            <a href="https://www.amazon.fr/shaama-Socle-en-Bougie-Bambou/dp/B0D5P2TK6W/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=USL6WE15KXGR&dib=eyJ2IjoiMSJ9.DYNoxGrwlG3J3mHW2lgTVoaE6u2aGYZkYYd4FGx7_yoDTTyQ28OqZ3pcMtnxVNdSy91LzfenOa_icbGfetcGjzmzQqzmC6g5utG5QqEoesa521fKetQl0_72rlPUImse5DxC_VjJPdtomAQjqthv-nbkjzHjw5kzOR_PcX0_C1RyhBoyENHgu7N7KYo7gUjx2fNy35x3BhJddsCnGfOZ_SKtUc3Jjim0rpblxZ9MU2Y3dXrGv7PmJhzboDDqB-Nv8Xuq-L7oZtD7AnqF8_dtY_w7rU-h80McCTPreNMuklk.2zjutH-l1mG7MJ7DYeolhqzZee9WuFAtBGvI1YRxtPI&dib_tag=se&keywords=shaama+bougie&nsdOptOutParam=true&qid=1732699812&sprefix=shaama+bougie%2Caps%2C74&sr=8-2"
+               class="w-full bg-sage-green hover:bg-opacity-90 text-white font-bold py-2 px-4 rounded flex items-center justify-center transition duration-300"
+               target="_blank">
+                <i class="lucide-shopping-cart mr-2"></i>
+                Acheter sur Amazon
+            </a>
+        </div>
+    </div>
+
+    <!--            &lt;!&ndash; Ocean Breeze Candle &ndash;&gt;-->
+    <!--            <div class="max-w-sm rounded-3xl overflow-hidden shadow-lg bg-white flex-1">-->
+    <!--                <img class="w-50 h-64 object-cover" src="https://m.media-amazon.com/images/I/61Dc-hmXDJL.__AC_SY445_SX342_QL70_ML2_.jpg" alt="Ocean Breeze Candle">-->
+    <!--                <div class="px-6 py-4">-->
+    <!--                    <div class="font-bold text-xl mb-2 text-deep-taupe">Ocean Breeze Candle</div>-->
+    <!--                    <p class="text-gray-700 text-base mb-4">-->
+    <!--                        Experience the fresh, invigorating scent of our Ocean Breeze candle. Brings the calming essence of the sea to your home.-->
+    <!--                    </p>-->
+    <!--                    <div class="flex justify-between items-center mb-4">-->
+    <!--                        <span class="text-xl font-bold text-deep-taupe">$22.99</span>-->
+    <!--                    </div>-->
+    <!--                    <a class="w-full bg-sage-green hover:bg-opacity-90 text-white font-bold py-2 px-4 rounded flex items-center justify-center transition duration-300">-->
+    <!--                        <i class="lucide-shopping-cart mr-2"></i>-->
+    <!--                        Acheter sur Amazon-->
+    <!--                    </a>-->
+    <!--                </div>-->
+    <!--            </div>-->
+
+    <!--            &lt;!&ndash; Lavender Fields Candle &ndash;&gt;-->
+    <!--            <div class="max-w-sm rounded-3xl overflow-hidden shadow-lg bg-white flex-1">-->
+    <!--                <img class="w-50 h-64 object-cover" src="https://m.media-amazon.com/images/I/71fqwXoJneL.__AC_SY445_SX342_QL70_ML2_.jpg" alt="Lavender Fields Candle">-->
+    <!--                <div class="px-6 py-4">-->
+    <!--                    <div class="font-bold text-xl mb-2 text-deep-taupe">Lavender Fields Candle</div>-->
+    <!--                    <p class="text-gray-700 text-base mb-4">-->
+    <!--                        Relax and unwind with the soothing scent of our Lavender Fields candle. Perfect for creating a peaceful ambiance.-->
+    <!--                    </p>-->
+    <!--                    <div class="flex justify-between items-center mb-4">-->
+    <!--                        <span class="text-xl font-bold text-deep-taupe">$26.99</span>-->
+    <!--                    </div>-->
+    <!--                    <a class="w-full bg-sage-green hover:bg-opacity-90 text-white font-bold py-2 px-4 rounded flex items-center justify-center transition duration-300">-->
+    <!--                        <i class="lucide-shopping-cart mr-2"></i>-->
+    <!--                        Acheter sur Amazon-->
+    <!--                    </a>-->
+    <!--                </div>-->
+    <!--            </div>-->
+</div>
+
+<div class="mt-10">
+    <div class="marquee-container bg-charcoal">
+        <div class="marquee marquee-fast text-white">
+            <span>🕯 Bougie 100% naturelle, sans plastique ni verre pour un choix écologie 🕯 Bougie en bois écologique, fabriquée avec des matériaux de haute qualité 🕯 </span>
+        </div>
+    </div>
+</div>
+
+<div class="background-photo">
+    <div class="text-container">
+        <div class="text-box">Chaleur, lumière ☀️</div>
+        <div class="text-box">et sérénité.</div>
+    </div>
+</div>
+
+<div id="contact" class="w-full bg-white rounded-lg shadow-lg mt-10 p-8">
+    <h1 class="text-3xl font-bold text-deep-taupe mb-6 text-center">Contact Us</h1>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain" class="space-y-4 mx-auto"
+          style="width: 40rem">
+        <div>
+            <label for="name" class="block text-sm font-medium text-deep-taupe mb-1">Name</label>
+            <input type="text" id="name" name="name" required
+                   class="w-full px-3 py-2 border border-soft-amber rounded-md focus:outline-none focus:ring-2 focus:ring-sage-green">
+        </div>
+        <div>
+            <label for="email" class="block text-sm font-medium text-deep-taupe mb-1">Email</label>
+            <input type="email" id="email" name="email" required
+                   class="w-full px-3 py-2 border border-soft-amber rounded-md focus:outline-none focus:ring-2 focus:ring-sage-green">
+        </div>
+        <div>
+            <label for="subject" class="block text-sm font-medium text-deep-taupe mb-1">Subject</label>
+            <input type="text" id="subject" name="subject" required
+                   class="w-full px-3 py-2 border border-soft-amber rounded-md focus:outline-none focus:ring-2 focus:ring-sage-green">
+        </div>
+        <div>
+            <label for="message" class="block text-sm font-medium text-deep-taupe mb-1">Message</label>
+            <textarea id="message" name="message" rows="4" required
+                      class="w-full px-3 py-2 border border-soft-amber rounded-md focus:outline-none focus:ring-2 focus:ring-sage-green"></textarea>
+        </div>
+        <div>
+            <button type="submit"
+                    class="w-full bg-sage-green hover:bg-opacity-90 text-white font-bold py-2 px-4 rounded transition duration-300">
+                Send Message
+            </button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

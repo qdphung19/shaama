@@ -1,0 +1,38 @@
+@import url(marquee.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+.background-photo {
+    width: 100%; /* Largeur de la div */
+    height: 700px; /* Hauteur de la div */
+    background-image: url('../assets/img/img_background.png'); /* Chemin vers votre image */
+    background-size: cover; /* Couvre toute la div tout en gardant les proportions */
+    background-position: left; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    position: relative; /* Nécessaire pour positionnement absolu */
+}
+
+.text-container {
+    position: absolute;
+    bottom: 100px; /* Espace depuis le bas, ajustez selon vos besoins */
+    left: 80%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.text-box {
+    width: 500px;
+    background-color: #FFDAB9cc; /* Arrière-plan semi-transparent */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 5px; /* Espace entre les boîtes de texte */
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: fadeIn 1s ease-in;
+}
