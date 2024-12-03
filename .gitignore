@@ -21,7 +21,7 @@ out/
 .DS_Store
 
 # Tailwind generated files
-css/output.css
+#css/output.css
 
 # IDE-specific directories
 .idea/
